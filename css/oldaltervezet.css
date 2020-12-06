@@ -1,0 +1,182 @@
+body 
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: url(bg.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar
+{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.navbar a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5vW;
+    font-family: Tahoma;
+    border: 2px solid transparent;
+    padding: 12px;
+    transition: 0.3s;
+    background: navy;
+    width: 25%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+}
+
+.navbar a:hover
+{
+    background: rgb(1, 1, 179);
+    border: 2px solid #fff;
+}
+
+.vissza
+{
+    text-align:left;
+    padding-left: 1.5%;
+}
+
+.vissza a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5vw;
+    font-family: Tahoma;
+    margin-right: 0px;
+    border: 2px solid transparent;
+    padding: 10px;
+    transition: 0.3s;
+    background: navy;
+}
+
+.vissza a:hover
+{
+    background: rgb(1, 1, 179);
+    border: 2px solid #fff;
+}
+
+#rectangle
+{
+    
+    width: 80%;
+    height: 330%;
+    background-color: rgba(0, 0, 128, 0.800);
+    position: relative; left: 10%; top: 0px;
+    overflow: hidden;
+}
+
+.oldal
+{
+    text-align: center;
+    color: #fff;
+    font-family: Tahoma;
+    font-size: 50px;
+}
+
+.cim
+{
+    text-align: justify;
+    padding-left: 20%;
+    color: #fff;
+    font-family: Tahoma;
+    font-size: 2vw;
+}
+
+.kep
+{
+    float: right;
+    width: 45%;
+    padding-right: 2.5%;
+    padding-left: 20px;
+}
+
+.kep img
+{
+    width: 100%;
+    height: auto;
+}
+
+.szoveg
+{
+    text-align: left;
+    text-align: justify;
+    color: #fff;
+    font-family: Tahoma;
+    font-size: 1.5vw;
+    padding-left: 5%;
+}
+
+.kep1
+{
+    float: left;
+    width: 42.5%;
+    padding-left:5%;
+}
+
+.kep1 img
+{
+    width: 100%;
+    height: auto;
+}
+
+.kep2
+{
+    float: right;
+    width: 42.5%;
+    padding-right:5%;
+    padding-bottom: 40px;
+}
+
+.kep2 img
+{
+    width: 100%;
+    height: auto;
+}
+
+.kep3
+{
+    float: left;
+    width: 42.5%;
+    padding-left:5%;
+    padding-top: 40px;
+    padding-right: 5%;
+    padding-bottom: 40px;
+}
+
+.kep3 img
+{
+    width: 100%;
+    height: auto;
+}
+
+.szoveg2
+{
+    text-align: right;
+    text-align: justify;
+    color: #fff;
+    font-family: Tahoma;
+    font-size: 1.5vw;
+    padding-right: 5%;
+}
+
+.szoveg3
+{
+    text-align: left;
+    text-align: justify;
+    color: #fff;
+    font-family: Tahoma;
+    font-size: 1.5vw;
+    padding-left: 5%;
+    padding-right: 5%;
+}

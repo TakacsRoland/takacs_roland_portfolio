@@ -1,0 +1,112 @@
+body 
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header
+{
+    background: url(bg.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar
+{
+    text-align: center;
+    padding-top: 30px;
+    width: 100%;
+}
+
+.navbar a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5vw;
+    font-family: Tahoma;
+    border: 2px solid transparent;
+    padding: 12px;
+    transition: 0.3s;
+    background: navy;
+    width: 25%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+}
+
+.navbar a:hover
+{
+    background: rgb(1, 1, 179);
+    border: 2px solid #fff;
+}
+
+.vissza
+{
+    text-align:left;
+    padding-left: 1.5%;
+}
+
+.vissza a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5vw;
+    font-family: Tahoma;
+    margin-right: 0px;
+    border: 2px solid transparent;
+    padding: 10px;
+    transition: 0.3s;
+    background: navy;
+}
+
+.vissza a:hover
+{
+    background: rgb(1, 1, 179);
+    border: 2px solid #fff;
+}
+
+#rectangle
+{
+    
+    width: 80%;
+    height: 70%;
+    background-color: rgba(0, 0, 128, 0.800);
+    position: relative; left: 10%; top: 0px;
+}
+
+.oldal
+{
+    text-align: center;
+    color: #fff;
+    font-family: Tahoma;
+    font-size: 50px;
+}
+
+.leiras
+{
+    color: #fff;
+    font-family: Tahoma;
+    font-size: 1.5vw;
+    padding-left: 3%;
+    padding-right: 22%;
+    text-align: justify;
+    text-align: left;
+}
+
+.container2
+{
+    float: right;
+    width: 13vw;
+    height: 8vw;
+    padding-right: 2%;
+    padding-left: 10px;
+}
+
+.container img
+{
+    width: 100%;
+    height: auto;
+}
